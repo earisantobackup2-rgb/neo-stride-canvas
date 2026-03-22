@@ -28,13 +28,18 @@ const Navbar = () => {
         className="container mx-auto flex items-center justify-between px-4 md:px-8 transition-all duration-300"
         style={{ height: scrolled ? "56px" : "80px" }}
       >
-        <a href="#home" className="flex items-center gap-2">
+        <a href="#home" className="flex items-center gap-2.5">
           <img
             src={logoSgk}
             alt="SGK Logo"
             className="w-auto transition-all duration-300"
             style={{ height: scrolled ? "36px" : "56px" }}
           />
+          <span className="font-display text-base md:text-lg font-bold gradient-text transition-all duration-300"
+            style={{ fontSize: scrolled ? "14px" : undefined }}
+          >
+            Mentarisatria
+          </span>
         </a>
 
         {/* Desktop */}
