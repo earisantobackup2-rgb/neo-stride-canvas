@@ -97,7 +97,7 @@ const Hero = () => {
             Hubungi Kami
           </a>
         </motion.div>
-      </div>
+      </motion.div>
     </section>
   );
 };
