@@ -52,7 +52,7 @@ const Hero = () => {
       />
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
+      <motion.div className="relative z-10 container mx-auto px-4 text-center max-w-4xl" style={{ y: contentY, opacity: contentOpacity }}>
         <motion.h1
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 neon-text"
           initial={{ opacity: 0, y: 40, filter: "blur(10px)" }}
