@@ -1,25 +1,39 @@
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence, useMotionValueEvent, useScroll } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { navLinks } from "@/data/content";
 import logoSgk from "@/assets/logo-sgk.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const { scrollY } = useScroll();
+
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    setScrolled(latest > 50);
+  });
 
   return (
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-      className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/50"
+      className="fixed top-0 left-0 right-0 z-50 border-b border-border/50 transition-all duration-300"
+      style={{
+        backgroundColor: scrolled ? "hsla(233, 82%, 12%, 0.95)" : "hsla(233, 82%, 12%, 0.6)",
+        backdropFilter: "blur(20px)",
+      }}
     >
-      <div className="container mx-auto flex items-center justify-between h-20 px-4 md:px-8">
+      <div
+        className="container mx-auto flex items-center justify-between px-4 md:px-8 transition-all duration-300"
+        style={{ height: scrolled ? "56px" : "80px" }}
+      >
         <a href="#home" className="flex items-center gap-2">
           <img
             src={logoSgk}
             alt="SGK Logo"
-            className="h-14 w-auto"
+            className="w-auto transition-all duration-300"
+            style={{ height: scrolled ? "36px" : "56px" }}
           />
         </a>
 
