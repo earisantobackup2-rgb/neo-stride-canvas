@@ -24,6 +24,10 @@ const Hero = () => {
       <div className="absolute inset-0 z-[1] bg-gradient-to-b from-background/70 via-background/50 to-background" />
       <div className="absolute inset-0 z-[1] bg-gradient-to-r from-primary/20 via-transparent to-secondary/20 animate-gradient-shift" style={{ backgroundSize: "200% 200%" }} />
 
+      {/* Particle starfield */}
+      <ParticleField />
+      <div className="absolute inset-0 z-[1] bg-gradient-to-r from-primary/20 via-transparent to-secondary/20 animate-gradient-shift" style={{ backgroundSize: "200% 200%" }} />
+
       {/* Floating glow elements */}
       <motion.div
         className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-primary/10 blur-[100px] z-[1]"
