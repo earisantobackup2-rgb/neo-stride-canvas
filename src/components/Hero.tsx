@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import ParticleField from "./ParticleField";
 import { contactInfo } from "@/data/content";
 
 const Hero = () => {
