@@ -15,15 +15,12 @@ const Navbar = () => {
       className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/50"
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-4 md:px-8">
-        <a href="#home" className="flex items-center gap-3">
+        <a href="#home" className="flex items-center gap-2">
           <img
             src={logoSgk}
             alt="SGK Logo"
-            className="h-10 w-auto"
+            className="h-14 w-auto"
           />
-          <span className="font-display text-lg font-bold gradient-text">
-            Mentarisatria
-          </span>
         </a>
 
         {/* Desktop */}
