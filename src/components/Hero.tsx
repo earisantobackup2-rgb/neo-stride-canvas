@@ -1,17 +1,28 @@
-import { motion } from "framer-motion";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import ParticleField from "./ParticleField";
 import { contactInfo } from "@/data/content";
 
 const Hero = () => {
+  const sectionRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start start", "end start"],
+  });
+
+  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
+  const bgScale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
+  const contentY = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
+  const contentOpacity = useTransform(scrollYProgress, [0, 0.6], [1, 0]);
+
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image with zoom animation */}
+    <section ref={sectionRef} id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background image with parallax */}
       <motion.div
-        className="absolute inset-0 z-0"
-        animate={{ scale: [1, 1.05, 1] }}
-        transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute inset-[-15%] z-0"
+        style={{ y: bgY, scale: bgScale }}
       >
         <img
           src={heroBg}
