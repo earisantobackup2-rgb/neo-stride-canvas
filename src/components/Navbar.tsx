@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { navLinks } from "@/data/content";
+import logoSgk from "@/assets/logo-sgk.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,9 +17,9 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-16 px-4 md:px-8">
         <a href="#home" className="flex items-center gap-3">
           <img
-            src="https://mentarisatria.net.id/img/logo.png"
-            alt="Mentarisatria Logo"
-            className="h-8 w-auto"
+            src={logoSgk}
+            alt="SGK Logo"
+            className="h-10 w-auto"
           />
           <span className="font-display text-lg font-bold gradient-text">
             Mentarisatria
