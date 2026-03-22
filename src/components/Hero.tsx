@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import ParticleField from "./ParticleField";
 import { contactInfo } from "@/data/content";
 
 const Hero = () => {
@@ -21,6 +22,10 @@ const Hero = () => {
 
       {/* Gradient overlay */}
       <div className="absolute inset-0 z-[1] bg-gradient-to-b from-background/70 via-background/50 to-background" />
+      <div className="absolute inset-0 z-[1] bg-gradient-to-r from-primary/20 via-transparent to-secondary/20 animate-gradient-shift" style={{ backgroundSize: "200% 200%" }} />
+
+      {/* Particle starfield */}
+      <ParticleField />
       <div className="absolute inset-0 z-[1] bg-gradient-to-r from-primary/20 via-transparent to-secondary/20 animate-gradient-shift" style={{ backgroundSize: "200% 200%" }} />
 
       {/* Floating glow elements */}
