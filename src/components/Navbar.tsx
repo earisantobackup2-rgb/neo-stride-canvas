@@ -35,10 +35,10 @@ const Navbar = () => {
             className="w-auto transition-all duration-300"
             style={{ height: scrolled ? "36px" : "56px" }}
           />
-          <span className="font-display text-base md:text-lg font-bold gradient-text transition-all duration-300"
+          <span className="font-display text-base md:text-lg font-bold transition-all duration-300"
             style={{ fontSize: scrolled ? "14px" : undefined }}
           >
-            Mentarisatria
+            <span className="text-white">Mentari</span><span className="gradient-text">satria</span>
           </span>
         </a>
 
