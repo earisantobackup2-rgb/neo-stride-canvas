@@ -20,9 +20,9 @@ const Hero = () => {
         />
       </motion.div>
 
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-background/70 via-background/50 to-background" />
-      <div className="absolute inset-0 z-[1] bg-gradient-to-r from-primary/20 via-transparent to-secondary/20 animate-gradient-shift" style={{ backgroundSize: "200% 200%" }} />
+      {/* Gradient overlay - #101fa3 blue to purple */}
+      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-[#101fa3]/80 via-[#101fa3]/60 to-background" />
+      <div className="absolute inset-0 z-[1] bg-gradient-to-r from-[#101fa3]/40 via-transparent to-secondary/30 animate-gradient-shift" style={{ backgroundSize: "200% 200%" }} />
 
       {/* Particle starfield */}
       <ParticleField />

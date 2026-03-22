@@ -6,51 +6,51 @@
 
 @layer base {
   :root {
-    --background: 230 30% 10%;
-    --foreground: 210 40% 95%;
+    --background: 233 82% 12%;
+    --foreground: 220 40% 95%;
 
-    --card: 232 35% 14%;
-    --card-foreground: 210 40% 95%;
+    --card: 235 70% 15%;
+    --card-foreground: 220 40% 95%;
 
-    --popover: 232 35% 14%;
-    --popover-foreground: 210 40% 95%;
+    --popover: 235 70% 15%;
+    --popover-foreground: 220 40% 95%;
 
-    --primary: 225 85% 62%;
+    --primary: 233 82% 35%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 270 70% 58%;
+    --secondary: 270 70% 50%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 230 22% 20%;
-    --muted-foreground: 215 25% 68%;
+    --muted: 235 40% 20%;
+    --muted-foreground: 225 25% 68%;
 
-    --accent: 265 80% 65%;
+    --accent: 265 75% 58%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 232 25% 24%;
-    --input: 232 25% 24%;
-    --ring: 225 85% 62%;
+    --border: 235 35% 25%;
+    --input: 235 35% 25%;
+    --ring: 233 82% 35%;
 
     --radius: 0.75rem;
 
     /* Custom futuristic tokens */
-    --neon-blue: 220 100% 65%;
-    --neon-purple: 270 85% 65%;
-    --navy: 232 50% 18%;
-    --glass-bg: 232 35% 16%;
-    --glass-border: 225 40% 32%;
+    --neon-blue: 233 90% 50%;
+    --neon-purple: 270 80% 60%;
+    --navy: 233 82% 20%;
+    --glass-bg: 235 60% 17%;
+    --glass-border: 240 40% 30%;
 
-    --sidebar-background: 230 30% 10%;
-    --sidebar-foreground: 210 40% 95%;
-    --sidebar-primary: 225 85% 62%;
+    --sidebar-background: 233 82% 12%;
+    --sidebar-foreground: 220 40% 95%;
+    --sidebar-primary: 233 82% 35%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 230 22% 20%;
-    --sidebar-accent-foreground: 210 40% 95%;
-    --sidebar-border: 232 25% 24%;
-    --sidebar-ring: 225 85% 62%;
+    --sidebar-accent: 235 40% 20%;
+    --sidebar-accent-foreground: 220 40% 95%;
+    --sidebar-border: 235 35% 25%;
+    --sidebar-ring: 233 82% 35%;
   }
 }
 
