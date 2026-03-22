@@ -3,8 +3,21 @@ export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Projects", href: "#projects" },
+  { label: "Tools", href: "#tools" },
   { label: "Clients", href: "#clients" },
   { label: "Contact", href: "#contact" },
+];
+
+export const tools = [
+  { title: "UPS Calculator", description: "Calculate UPS requirements for your infrastructure", icon: "Calculator", href: "https://mentarisatria.net.id/tools/ups-calculator.php" },
+  { title: "Wifi Plan", description: "Plan your wireless network coverage", icon: "Wifi", href: "https://mentarisatria.net.id/tools/wifi-planner/" },
+  { title: "Cable Building", description: "Calculate cable requirements for your project", icon: "Cable", href: "https://mentarisatria.net.id/tools/cable-calculator/" },
+  { title: "Check IP", description: "Check IP address details and geolocation", icon: "Globe", href: "https://mentarisatria.net.id/tools/check-ip/" },
+  { title: "MAC Lookup", description: "Lookup MAC address vendor information", icon: "Search", href: "https://mentarisatria.net.id/tools/mac-lookup/" },
+  { title: "Server Perf", description: "Simulate and test server performance", icon: "Monitor", href: "https://mentarisatria.net.id/tools/server-performance/" },
+  { title: "Port Scanner", description: "Scan host for open ports", icon: "Radar", href: "https://mentarisatria.net.id/tools/port-scanner/" },
+  { title: "Pen-Test", description: "Penetration testing tools suite", icon: "ShieldCheck", href: "https://mentarisatria.net.id/tools/pen-test/" },
+  { title: "RAID Calc", description: "Calculate RAID storage configurations", icon: "HardDrive", href: "https://mentarisatria.net.id/tools/raid-calculator/" },
 ];
 
 export const aboutFeatures = [
