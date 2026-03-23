@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img src={logoSgk} alt="SGK Logo" className="h-10 w-auto" />
-              <span className="font-display text-lg font-bold gradient-text">Mentarisatria</span>
+              <span className="font-display text-lg font-bold text-white">Mentarisatria</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               PT Sekawan Global Komunika - Solusi infrastruktur IT terpercaya untuk korporasi Indonesia.
