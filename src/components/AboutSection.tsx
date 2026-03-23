@@ -29,7 +29,7 @@ const AboutSection = () => {
               <ScrollReveal key={feature.title} delay={i * 0.1}>
                 <div className="glass-card p-8 text-center group hover:scale-[1.02] transition-transform duration-300">
                   <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-5 group-hover:neon-glow transition-shadow duration-300">
-                    <Icon className="text-primary" size={28} />
+                    <Icon className="text-sky-400" size={28} />
                   </div>
                   <h3 className="text-lg font-semibold mb-3">{feature.title}</h3>
                   <p className="text-sm text-muted-foreground">{feature.description}</p>
