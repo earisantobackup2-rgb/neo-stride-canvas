@@ -95,6 +95,11 @@ export const projects = [
     description: "Instalasi dan Perbaikan Kabel Fiber Optic Antar Gedung",
     image: "https://goalkes-images.s3.ap-southeast-1.amazonaws.com/media/447/ROp80pMiXWx0wiHAIZXj0Pg8V539oO6aRtWXU3Q2.jpg",
   },
+  {
+    title: "Teras Menara Sudirman Jakarta : Pengadaan Access Point, Wifi, Camera Surveillance",
+    description: "Pengadaan Access Point, Wifi, Camera Surveillance",
+    image: projectTerasSudirman,
+  },
 ];
 
 export const events = [
