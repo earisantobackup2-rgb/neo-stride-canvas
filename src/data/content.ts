@@ -66,7 +66,14 @@ export const services = [
   },
 ];
 
+import projectPkuGombong from "@/assets/project-pku-gombong.jpg";
+
 export const projects = [
+  {
+    title: "RSU PKU Muhammadiyah Gombong : Implementasi UPS 5000VA Data Center",
+    description: "Pengadaan UPS untuk Server, Network Access Storage, Core Router Data Center",
+    image: projectPkuGombong,
+  },
   {
     title: "Plataran Makassar : Implementasi Network & Hospitality",
     description: "Instalasi Network Access Point, IP Camera, UPS & Rack Server",
