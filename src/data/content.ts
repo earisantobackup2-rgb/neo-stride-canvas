@@ -67,6 +67,7 @@ export const services = [
 ];
 
 import projectPkuGombong from "@/assets/project-pku-gombong.jpg";
+import projectTerasSudirman from "@/assets/project-teras-sudirman.webp";
 
 export const projects = [
   {
