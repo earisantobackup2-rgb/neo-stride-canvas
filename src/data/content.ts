@@ -67,6 +67,7 @@ export const services = [
 ];
 
 import projectPkuGombong from "@/assets/project-pku-gombong.jpg";
+import projectTerasSudirman from "@/assets/project-teras-sudirman.webp";
 
 export const projects = [
   {
@@ -93,6 +94,11 @@ export const projects = [
     title: "Managed Service IT Perusahaan : RSUD Margono Soekarjo",
     description: "Instalasi dan Perbaikan Kabel Fiber Optic Antar Gedung",
     image: "https://goalkes-images.s3.ap-southeast-1.amazonaws.com/media/447/ROp80pMiXWx0wiHAIZXj0Pg8V539oO6aRtWXU3Q2.jpg",
+  },
+  {
+    title: "Teras Menara Sudirman Jakarta : Pengadaan Access Point, Wifi, Camera Surveillance",
+    description: "Pengadaan Access Point, Wifi, Camera Surveillance",
+    image: projectTerasSudirman,
   },
 ];
 
