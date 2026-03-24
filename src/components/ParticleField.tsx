@@ -25,8 +25,8 @@ const ParticleField = () => {
       x: Math.random() * canvas.offsetWidth,
       y: Math.random() * canvas.offsetHeight,
       r: Math.random() * 1.8 + 0.4,
-      dx: (Math.random() - 0.5) * 0.3,
-      dy: (Math.random() - 0.5) * 0.3,
+      dx: (Math.random() - 0.5) * 0.5,
+      dy: (Math.random() - 0.5) * 0.5,
       opacity: Math.random() * 0.6 + 0.2,
       pulse: Math.random() * Math.PI * 2,
     }));
@@ -39,7 +39,7 @@ const ParticleField = () => {
       for (const p of particles) {
         p.x += p.dx;
         p.y += p.dy;
-        p.pulse += 0.015;
+        p.pulse += 0.025;
 
         if (p.x < 0) p.x = w;
         if (p.x > w) p.x = 0;
