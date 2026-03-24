@@ -43,12 +43,12 @@ const Hero = () => {
       <motion.div
         className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-primary/10 blur-[100px] z-[1]"
         animate={{ opacity: [0.3, 0.7, 0.3], y: [0, -20, 0] }}
-        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut" }}
       />
       <motion.div
         className="absolute bottom-1/3 right-1/4 w-48 h-48 rounded-full bg-secondary/15 blur-[80px] z-[1]"
         animate={{ opacity: [0.2, 0.6, 0.2], y: [0, 15, 0] }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
       />
 
       {/* Content */}

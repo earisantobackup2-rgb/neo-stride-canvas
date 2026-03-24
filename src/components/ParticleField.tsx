@@ -39,7 +39,7 @@ const ParticleField = () => {
       for (const p of particles) {
         p.x += p.dx;
         p.y += p.dy;
-        p.pulse += 0.015;
+        p.pulse += 0.025;
 
         if (p.x < 0) p.x = w;
         if (p.x > w) p.x = 0;
