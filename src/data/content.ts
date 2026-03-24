@@ -158,7 +158,8 @@ export const contactInfo = {
     { label: "+62 812 1295 1737 (WhatsApp)", href: "https://wa.me/6281212951737" },
   ],
   email: "info@mentarisatria.net.id",
-  hours: "Senin - Jumat: 08.00 - 17.00 WIB",
-  whatsapp: "https://wa.me/6281212951737?text=hai%20Mentarisatria%20saya%20ingin%20bertanya%20mengenai",
+  hours: "Senin - Sabtu: 08.00 - 17.00 WIB",
+  whatsapp: "https://wa.me/6281212951737?text=Hai%20Mentarisatria%20saya%20ingin%20berkonsultasi%20mengenai",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.2!2d109.2345!3d-7.4213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMjUnMTYuOCJTIDEwOcKwMTQnMDQuMiJF!5e0!3m2!1sid!2sid!4v1600000000000!5m2!1sid!2sid",
+  mapLink: "https://maps.app.goo.gl/y5CoTaVfrwbMBDK27",
 };
